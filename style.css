@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+body{
+    font-family: 'jost',sans-serif;
+    
+}
+.title_small{
+    font-size: 1rem;
+    line-height:25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.title_big{
+    font-size: 2rem;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+blockquote
+{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        position: relative;
+        margin-bottom: 1.5em;
+        width: 65%;
+        text-align: center;
+        margin: auto;
+}
+blockquote q
+{
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--font-color);
+        opacity: 0.8;
+}
+.testimonial
+{
+    position: relative;
+}
+.testimonial_bio
+{
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        text-align: left;
+        grid-gap: 20px;
+}
+.testimonial_img
+{
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        overflow: hidden;
+        background: #2e1c1c;
+        border-radius: 50%;
+}
+.testimonial_pro
+{
+    vertical-align: middle;
+}
+.swiper-pagination
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.post_img
+{
+    width: 100%;
+}
+.card-footer
+{
+    background: var(--bg-color);
+    
+}
+.author
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+}
+.card-img-top
+{
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+}
+.card-img-top:hover
+{
+    transform: scale(1.2);
+}
+.card-header
+{
+    overflow: hidden;
+    padding: 0;
+}
+.card
+{
+    overflow: hidden;
+}
+.sub
+{
+            background-image: url(https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/map.png);
+            background-color: #151421;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center
+}
+
+.sub-header
+{
+    width: 65%;
+    margin: auto;
+}
+.sub-sub
+{
+    position: relative;
+    grid-template-columns: 50px 1fr auto;
+    display: grid;
+    max-width: 500px;
+    margin: auto;
+    color: #ced4da;
+    border: 1px solid #ced4da;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+.sub-text
+{
+    color: #ced4da;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    justify-content: center;
+    border-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px 15px;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+    border-left:none ;
+    border: 1px solid #ced4da;
+    padding: 14px 20px;
+    border: 1px solid var(--border-color-light);
+}
+.footer
+{
+    background-color: #151421;
+    border-top: 1px solid rgba(249, 249, 249, 0.1);
+} 
+.logo_author
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.logo-text
+{
+    display: block;
+    font-size: 16px;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+.about p
+{
+    font-size: 18px;
+    color: #97a1a9;
+    line-height: 30px;
+}
+.social a
+{
+    font-size: 16px;
+    color: #97a1a9;
+    margin-right: 10px;
+    transition: all 0.3;
+}
+
+.social a:hover
+{color: white;
+}
+.title_foot h3
+{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
+.contact p
+{
+font-size: 18px;
+line-height: 28px;
+color: #97a1a9;
+}
+.contact a
+{
+    text-decoration: none;
+    color: #97a1a9;
+    transition: all 0.3;
+}
+.contact a:hover
+{
+    color: white;
+}
+.copy
+{
+ border-top: 1px solid rgba(249, 249, 249, 0.1);
+ background-color: #151421;
+}
+.copy p
+{
+    color: #7f8a94;
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+.copy a
+{
+    text-decoration: none;
+    color: green;
+    transition: all 0.3;
+}
+.copy a:hover
+{
+    color: white;
+}
